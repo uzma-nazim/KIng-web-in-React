@@ -1,0 +1,171 @@
+@import "./stake.css";
+@media all and (min-width: 0px) {
+  
+   .team h1{
+       
+       background: -webkit-linear-gradient(rgb(179, 177, 177), rgb(180, 173, 173));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       
+   }
+   .memeber1 h2{
+    background: -webkit-linear-gradient(rgb(179, 177, 177), rgb(180, 173, 173));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+
+   }
+    .navdiv{
+        /* border: 1px solid black; */
+
+    }
+    .nav-wrap ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-wrap ul li {
+        /* margin: 0 1rem; */
+    }
+    .nav-wrap ul li a {
+        /* color: var(--white); */
+        font: 1.5rem/4rem var(--font1);
+        text-decoration: none;
+    }
+    .mintbox {
+        /* background: linear-gradient(to bottom, #DDB87A 0%, #CF9229 100%); */
+        
+        border-radius: 20px;
+        width: 150px;
+        text-align: center;
+    }
+    .stakebox a{
+        color: #fff;
+    }
+    .stakebox {
+    
+        /* width: 100px; */
+        color: #fff !important;
+        /* padding: 10px; */
+        text-align: center;
+        
+    }
+    .logo {
+        /* background: white; */
+        width: 63px;
+        height: 60px;
+        margin-right: 600px;
+    }
+}
+.active{
+    /* border-radius: 15px; */
+    background:rgb(10, 31, 52) !important;
+    background: linear-gradient(
+        109.4deg,
+        rgb(10, 31, 52) 0%,
+        rgb(10, 31, 52) 101.64%
+      ) !important;
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.267) !important;
+      box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);
+
+      
+    
+    
+}
+.nav-link{
+    font-size: 18px !important;
+    margin: 6px !important;
+}
+.tab-pane {
+    padding: 10px !important;
+    border-radius: 10px !important;
+    /* border: 1px solid red; */
+    background-color: transparent !important;
+
+}
+.nav-tabs{
+    /* border: 1px  solid red  ; */
+    border-bottom: 2px solid rgb(211, 211, 211 ,0.5);
+    display: flex;
+    justify-content: center;
+}
+@media all and (min-width: 768px) {}
+
+
+.header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.tab-content{
+    background-color:  transparent !important;
+}
+.linkfooter{
+    padding: 50px;
+    text-align: center;
+    background-color: #0B1F34;
+}
+.linkfooter span{
+    margin: 5px;
+}
+.linkfooter h1 ,.linkfooter p{
+    color: #70C9CE;
+    font-size: 30px ;
+}
+.planepaper{
+    border: 1px solid #1DA1F2;
+    padding: 3px 7px;
+    background-color: #1DA1F2;
+    border-radius: 50% !important;
+
+}
+.twiiter{
+    border: 1px solid #1DA1F2;
+    padding: 3px 7px;
+    background-color: #1DA1F2;
+    border-radius: 5px !important;
+    
+
+}
+.discord{
+
+    border: 1px solid #6E85D3;
+    padding: 3px 7px;
+    background-color: #6E85D3;
+    border-radius: 5px !important;
+    
+
+}
+.facebook{
+
+    border: 1px solid #385592;
+    padding: 3px 7px;
+    background-color: #385592;
+    border-radius: 5px !important;
+    
+
+}
+.fa-paper-plane ,.fa-twitter ,.fa-discord ,.fa-facebook-f   { 
+    color: #fff;
+}
+.Mmem{
+      /* ff 3.6+ */
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(19deg, rgba(4, 116, 127, 1) 0%, rgba(9, 30, 51, 1) 29%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(19deg, rgba(4, 116, 127, 1) 0%, rgba(9, 30, 51, 1) 29%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(19deg, rgba(4, 116, 127, 1) 0%, rgba(9, 30, 51, 1) 29%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04747F', endColorstr='#091E33', GradientType=1 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(19deg, rgba(4, 116, 127, 1) 0%, rgba(9, 30, 51, 1) 29%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(19deg, rgba(4, 116, 127, 1) 0%, rgba(9, 30, 51, 1) 29%);
+}

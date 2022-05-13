@@ -1,0 +1,7 @@
+const WebApp = ()=>{
+    return(
+
+        <>
+        </>
+    )
+}
